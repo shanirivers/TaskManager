@@ -13,6 +13,7 @@
 		F40872691BBCCA88001BD692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40872671BBCCA88001BD692 /* Main.storyboard */; };
 		F408726B1BBCCA88001BD692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F408726A1BBCCA88001BD692 /* Assets.xcassets */; };
 		F408726E1BBCCA88001BD692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F408726C1BBCCA88001BD692 /* LaunchScreen.storyboard */; };
+		F40872761BBCCAB4001BD692 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40872751BBCCAB4001BD692 /* TaskManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F408726A1BBCCA88001BD692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F408726D1BBCCA88001BD692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F408726F1BBCCA88001BD692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40872751BBCCAB4001BD692 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F40872611BBCCA88001BD692 /* AppDelegate.swift */,
 				F40872631BBCCA88001BD692 /* FirstViewController.swift */,
 				F40872651BBCCA88001BD692 /* SecondViewController.swift */,
+				F40872751BBCCAB4001BD692 /* TaskManager.swift */,
 				F40872671BBCCA88001BD692 /* Main.storyboard */,
 				F408726A1BBCCA88001BD692 /* Assets.xcassets */,
 				F408726C1BBCCA88001BD692 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				F40872661BBCCA88001BD692 /* SecondViewController.swift in Sources */,
 				F40872621BBCCA88001BD692 /* AppDelegate.swift in Sources */,
+				F40872761BBCCAB4001BD692 /* TaskManager.swift in Sources */,
 				F40872641BBCCA88001BD692 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
