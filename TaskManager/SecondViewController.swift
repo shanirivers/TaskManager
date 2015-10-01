@@ -12,6 +12,8 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var txtTask: UITextField!
     @IBOutlet var txtDesc: UITextField!
+    @IBOutlet weak var deadlinePicker: UIDatePicker!
+
     
     @IBAction func btnAddTask(sender: UIButton) {
         if (txtTask.text == ""){
